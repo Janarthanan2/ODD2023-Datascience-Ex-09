@@ -118,12 +118,20 @@ plt.show()
 ```
 <img width="278" src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-09/assets/119393515/0da84310-abad-4130-a3c8-4a00aa546eb4">
 
+- **_TIP AMOUNT TIME OF DAY_**
 ```PYTHON
 sns.violinplot(x="time",y="tip",data=df)
 plt.title("tip amount time of day")
+```
+<img width="284" src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-09/assets/119393515/429d50b8-c667-4568-8077-4df99aba54aa">
 
+- **_CORRELATION BETWEEN TIP AMOUNT AND TOTAL BILL AMOUNT_**
+```PYTHON
 sns.scatterplot(x="total_bill",y="tip",data=df)
 plt.title("Correlation between Tip Amount and Total Bill Amount")
 plt.show()
-
 ```
+<img width="280"  src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-09/assets/119393515/ef1864f3-454f-4a41-81c0-9e39b9907e08">
+
+# RESULT:
+_Thus, Data Visualization on a complex dataset and save the data to a file has been performed successfully._
